@@ -1,0 +1,30 @@
+.g3x{
+      position: absolute;
+      width: 100%;
+      height: auto;
+    }
+    .foto{
+      position: absolute;
+      opacity: 0;
+      animation-name: animacao;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes animacao{
+      50%{
+        opacity: 1;
+        transform: scale(1.1,1.1);
+      }
+      100%{
+        opacity: 0;
+      }
+    }
+
+
+
+    .foto:nth-child(1){
+
+    }
+    .foto:nth-child(2){
+      animation-delay: 5s;
+    }
